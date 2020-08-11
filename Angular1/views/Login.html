@@ -1,0 +1,27 @@
+﻿
+<h4><a  href="/index.html#!/Registration">Registration Page</a></h4>
+<h1>Login Page</h1>
+
+    <table>
+        <tbody>
+            <form name="LoginForm" ng-submit="checkLogin()" method="POST">
+                <tr>
+                    <div>
+                        <td> <label for="email"> UserName/Email: </label></td>
+                        <td> <input required type="text" name="email" ng-model="email" id="email" /></td>
+                    </div>
+                </tr>
+                <tr>
+                    <div>
+                        <td> <label for="password"> Password: </label></td>
+                        <td> <input required type="password" name="password" ng-model="password" id="password" /></td>
+                    </div>
+                </tr>
+
+                <div>
+                    <td><input type="submit" ng-click="checkLogin()" value="Login" /></td>
+                </div>
+                </tr>
+            </form>
+        </tbody>
+    </table>

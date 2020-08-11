@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html ng-app="ToDo">
+<head>
+    <meta charset="utf-8" />
+    <title> Angular 1 Demo</title>
+    <script src="Scripts/angular-1.8.0/angular.js"></script>
+    <script src="Scripts/angular-1.8.0/angular-route.js"></script>
+    <script src="controllers/RegistrationScript.js"></script>
+    <script src="controllers/Login.js"></script>
+    <script src="controllers/ProfileDashboard.js"></script>
+    <script src="controllers/Profile.js"></script>
+    <script src="controllers/CreateToDo.js"></script>
+    <script src="controllers/EditToDo.js"></script>
+    <script src="controllers/ReadToDo.js"></script>
+    <script src="controllers/ToDoItem.js"></script>
+    <script src="app.js"></script>
+
+</head>
+<body>
+
+    <div ng-show="showflag"><app-logout></app-logout></div>
+    <ng-view></ng-view>
+</body>
+</html>
